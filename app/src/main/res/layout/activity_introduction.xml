@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="罗罗诺亚·索隆，日本漫画《航海王》及衍生作品中的主要角色，“草帽一伙”的战斗员，人称“海贼猎人索隆”，是使用三把刀战斗的三刀流剑士。索隆出生于东海的霜月村，立志成为世界第一大剑豪。之后加入“草帽一伙” ，随着“草帽一伙”以成为世界第一大剑豪的目标旅行"
+        android:background="#FAEBD7"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+</LinearLayout>

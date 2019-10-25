@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuoLong">
+    <ImageView
+        android:id="@+id/picture"
+        android:src="@drawable/suolong"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"/>
+    <TextView
+        android:id="@+id/Hello1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/name1"
+        android:textColor="#458B74"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "brief introduction"
+            android:layout_weight="1"
+            android:textColor="#5B4B00"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text = "love"
+            android:textColor="#AD5A5A"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/lalala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text = "实在不知道说啥"
+            android:textColor="#804040"
+            android:textSize="20sp" />
+        </LinearLayout>
+
+</LinearLayout>
